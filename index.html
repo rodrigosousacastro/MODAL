@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal project</title>
+    <link rel="preload" href="style.css"> <!--pesquisar o que é preload no CSS e no JS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="content">
+
+        <!--Botão de abertura do modal-->
+        <button class="btn" onclick="openModal('dv-modal')">Abrir modal</button>
+
+        <!--Texto e imagem-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel pellentesque ipsum, non vulputate odio. Aenean at accumsan ante. Vivamus elit eros, vulputate eget laoreet sit amet, molestie finibus velit. Morbi sit amet sem gravida, dignissim mauris ac, pharetra est. Etiam varius pharetra dolor, nec facilisis augue suscipit et. Sed euismod tincidunt viverra. Phasellus blandit libero ac quam commodo venenatis. Vivamus id leo pellentesque, consectetur justo in, vehicula justo.</p>
+
+        <p>Mauris eu sapien consectetur, accumsan sem sollicitudin, finibus erat. Pellentesque sed felis ut quam facilisis gravida. Nullam interdum eget velit vitae porta. Vestibulum a tempus arcu, sit amet interdum elit. Nulla ornare interdum porta. Aliquam auctor pellentesque fermentum. Quisque tincidunt interdum neque. Etiam vestibulum libero in tempus tincidunt. Sed pharetra mauris et auctor iaculis. Mauris nec pulvinar felis, ut gravida quam. Sed sit amet sapien massa.</p>
+        
+        <p>Proin molestie nisl et neque efficitur, ut gravida eros mattis. Pellentesque aliquam egestas mauris at faucibus. Aliquam posuere suscipit est, sit amet viverra felis scelerisque in. Aliquam feugiat, nibh a tincidunt volutpat, ante ligula convallis quam, eget imperdiet purus odio ac orci. In ut tortor sit amet odio convallis dapibus. Ut auctor rutrum posuere. Mauris nec molestie urna, vel tempus odio. Proin aliquam vitae sapien vitae tempor. Etiam et ligula feugiat augue rutrum auctor et in augue. Etiam lacus ipsum, dignissim eu faucibus eu, aliquam ac ex. Nulla leo nisi, congue vitae ornare vitae, maximus vitae dui. Integer placerat vitae quam at hendrerit. Aliquam erat volutpat. Pellentesque facilisis ultricies nibh, non ornare metus ornare eget. Nullam eros justo, tristique non ornare eget, lacinia id nisi.</p>
+
+        <p>Proin at consectetur nisl. Duis tristique congue lectus. In hendrerit mollis nibh eu viverra. Ut non pretium nisi. Curabitur sit amet tempus enim. Curabitur leo nisi, malesuada pellentesque eleifend a, dictum sit amet purus. Nulla facilisi. Mauris ante turpis, faucibus et aliquet pulvinar, bibendum id diam. Duis interdum quis massa at imperdiet. Etiam augue tortor, efficitur ac congue sed, semper non nisi. Proin in viverra odio, vitae ultricies tellus. Etiam sed luctus nisl. Integer consectetur ultrices nulla sed dictum. Proin venenatis rutrum ante, ut hendrerit justo bibendum eu. Nulla sagittis tincidunt justo, eget semper enim.</p>
+
+        <p>Vivamus pretium a enim vitae sodales. Proin ac arcu id nibh lacinia scelerisque. Sed ultricies arcu dui, nec fermentum purus mattis ut. Ut vulputate, nulla nec interdum accumsan, nisi sem auctor purus, id posuere est nisl accumsan diam. Aliquam erat volutpat. Nulla semper posuere leo aliquet fringilla. Sed quis egestas dui. Ut condimentum tellus quis imperdiet eleifend. Nullam ut condimentum lorem, vitae imperdiet ligula. Praesent sed commodo tortor. Aliquam semper fringilla sodales. Suspendisse eget nulla ligula. Morbi sed ligula at lacus commodo eleifend. Nam venenatis diam eu leo congue porta.</p>
+
+        <p>Proin molestie nisl et neque efficitur, ut gravida eros mattis. Pellentesque aliquam egestas mauris at faucibus. Aliquam posuere suscipit est, sit amet viverra felis scelerisque in. Aliquam feugiat, nibh a tincidunt volutpat, ante ligula convallis quam, eget imperdiet purus odio ac orci. In ut tortor sit amet odio convallis dapibus. Ut auctor rutrum posuere. Mauris nec molestie urna, vel tempus odio. Proin aliquam vitae sapien vitae tempor. Etiam et ligula feugiat augue rutrum auctor et in augue. Etiam lacus ipsum, dignissim eu faucibus eu, aliquam ac ex. Nulla leo nisi, congue vitae ornare vitae, maximus vitae dui. Integer placerat vitae quam at hendrerit. Aliquam erat volutpat. Pellentesque facilisis ultricies nibh, non ornare metus ornare eget. Nullam eros justo, tristique non ornare eget, lacinia id nisi.</p>
+
+        <p>Proin at consectetur nisl. Duis tristique congue lectus. In hendrerit mollis nibh eu viverra. Ut non pretium nisi. Curabitur sit amet tempus enim. Curabitur leo nisi, malesuada pellentesque eleifend a, dictum sit amet purus. Nulla facilisi. Mauris ante turpis, faucibus et aliquet pulvinar, bibendum id diam. Duis interdum quis massa at imperdiet. Etiam augue tortor, efficitur ac congue sed, semper non nisi. Proin in viverra odio, vitae ultricies tellus. Etiam sed luctus nisl. Integer consectetur ultrices nulla sed dictum. Proin venenatis rutrum ante, ut hendrerit justo bibendum eu. Nulla sagittis tincidunt justo, eget semper enim.</p>
+
+        <p>Vivamus pretium a enim vitae sodales. Proin ac arcu id nibh lacinia scelerisque. Sed ultricies arcu dui, nec fermentum purus mattis ut. Ut vulputate, nulla nec interdum accumsan, nisi sem auctor purus, id posuere est nisl accumsan diam. Aliquam erat volutpat. Nulla semper posuere leo aliquet fringilla. Sed quis egestas dui. Ut condimentum tellus quis imperdiet eleifend. Nullam ut condimentum lorem, vitae imperdiet ligula. Praesent sed commodo tortor. Aliquam semper fringilla sodales. Suspendisse eget nulla ligula. Morbi sed ligula at lacus commodo eleifend. Nam venenatis diam eu leo congue porta.</p>
+    </div>
+
+    <!--Conteúdo do modal-->
+    <div id="dv-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>Meu modal com HTML</h1>
+            </div>
+
+            <div class="modal-body">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+
+                <img src="https://gpslifetime.com.br/uploads/content_manager/contents/50606/image/as-paisagens-que-inspiraram-as-pinceladas-de-van-gogh-0b7a.jpg" alt="Van Gogh. Noite Estrelada, 1889 | Óleo sobre a tela | Museu de Arte Moderna (NY)" style="width: 80%;">
+
+            </div>
+
+            <div class="modal-footer" onclick="closeModal('dv-modal')">
+                <!--Botão de fechamento do modal-->
+                <button class="btn">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
